@@ -4,6 +4,15 @@ const nextConfig = {
   output: 'standalone',
   swcMinify: true,
   poweredByHeader: false,
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+  },
 }
 
 module.exports = nextConfig 

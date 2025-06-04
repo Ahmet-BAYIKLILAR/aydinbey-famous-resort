@@ -224,6 +224,8 @@ const WelcomePage = ({ language, onComplete }: { language: typeof languages[0], 
             height={300}
             className="mx-auto"
             style={{ objectFit: 'contain' }}
+            priority
+            unoptimized
           />
         </motion.div>
         <motion.h1
@@ -287,6 +289,8 @@ const MainContent = ({ language, showReviewOptions, setShowReviewOptions }: {
                     width={120}
                     height={60}
                     className="object-contain"
+                    priority
+                    unoptimized
                   />
                 </div>
               </div>
