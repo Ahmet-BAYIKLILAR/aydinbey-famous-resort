@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 import '../styles/ReviewPage.css';
 
 type Language = 'tr' | 'en' | 'de' | 'ru';
@@ -102,7 +103,15 @@ const ReviewPage: React.FC = () => {
         <div className="review-cards">
           <div className="review-card" onClick={handleGoogleClick}>
             <div className="review-card-header">
-              <img src="/google-logo.png" alt="Google" className="review-platform-logo" />
+              <div className="review-platform-logo">
+                <Image
+                  src="/images/google-logo.png"
+                  alt="Google"
+                  width={100}
+                  height={40}
+                  priority
+                />
+              </div>
               <h2>{t.google.title}</h2>
             </div>
             <div className="review-stats">
@@ -115,7 +124,15 @@ const ReviewPage: React.FC = () => {
 
           <div className="review-card" onClick={handleTripadvisorClick}>
             <div className="review-card-header">
-              <img src="/tripadvisor-logo.png" alt="Tripadvisor" className="review-platform-logo" />
+              <div className="review-platform-logo">
+                <Image
+                  src="/images/tripadvisor-logo.png"
+                  alt="Tripadvisor"
+                  width={120}
+                  height={40}
+                  priority
+                />
+              </div>
               <h2>{t.tripadvisor.title}</h2>
             </div>
             <div className="review-stats">
