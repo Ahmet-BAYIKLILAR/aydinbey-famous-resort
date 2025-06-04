@@ -1,11 +1,13 @@
 [build]
-  command = "npm run build"
+  command = "npm install && npm run build"
   publish = ".next"
+  ignore = "git diff --quiet HEAD^ HEAD ./"
 
 [build.environment]
   NEXT_PUBLIC_BASE_PATH = ""
   NODE_VERSION = "18.19.0"
   NEXT_TELEMETRY_DISABLED = "1"
+  CI = "1"
 
 [build.processing]
   skip_processing = true
