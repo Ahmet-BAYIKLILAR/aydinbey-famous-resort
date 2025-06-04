@@ -4,7 +4,7 @@
 
 [build.environment]
   NEXT_PUBLIC_BASE_PATH = ""
-  NODE_VERSION = "16.20.0"
+  NODE_VERSION = "18.17.0"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs" 
