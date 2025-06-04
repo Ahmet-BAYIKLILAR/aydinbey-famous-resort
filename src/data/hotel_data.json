@@ -1,0 +1,842 @@
+{
+  "general_greetings_and_intro": {
+    "basic_greetings": {
+      "questions": [
+        "Merhaba!",
+        "Selam!",
+        "Günaydın!",
+        "İyi akşamlar!"
+      ],
+      "answers": [
+        "Merhaba! 😊 Ben Eleythra, Aydınbey Famous Resort'un dijital asistanıyım. Size nasıl yardımcı olabilirim?",
+        "Selam! 👋 Tatilinizle ilgili her türlü sorunuz için buradayım. Sorularınızı bana iletebilirsiniz.",
+        "Günaydın! Harika bir gün olacak, size nasıl yardımcı olabilirim? 😊",
+        "İyi akşamlar! Umarım gününüz güzel geçmiştir. Size nasıl destek olabilirim?"
+      ]
+    },
+    "identity_and_purpose": {
+      "questions": [
+        "Sen kimsin?",
+        "Adın ne?",
+        "Bana biraz kendinden bahseder misin?",
+        "Burada kimle konuşuyorum?",
+        "Chatbot musun?",
+        "Eleythra ne demek?"
+      ],
+      "answers": [
+        "Ben Eleythra! Aydınbey Famous Resort için özel olarak geliştirilmiş dijital otel asistanıyım. Sorularınızı yanıtlamak ve otelimiz hakkında bilgi vermek için buradayım. 😊",
+        "Benim adım Eleythra, Aydınbey Famous Resort'un dijital asistanı. Size yardımcı olmak için buradayım!",
+        "Tabii! Ben Eleythra, otelimizde konaklamanızı kolaylaştırmak, sorularınızı yanıtlamak ve tatilinizi en keyifli hale getirmek için tasarlandım.",
+        "Ben Eleythra, Aydınbey Famous Resort'un dijital asistanıyım. Tatiliniz boyunca her türlü sorunuz için bana yazabilirsiniz!",
+        "Evet, ben bir dijital asistanım! Ama endişelenmeyin, sizinle samimi ve doğal bir şekilde sohbet etmeye hazırım. 😊",
+        "Eleythra, adını özgürlük ve keşif anlamından alıyor. Ben de Aydınbey Famous Resort'taki konaklamanız boyunca her şeyi kolaylaştırmak için buradayım. 😊"
+      ]
+    },
+    "well_being_chat": {
+      "questions": [
+        "Nasılsın?",
+        "Nabersin?",
+        "Tatilim harika, teşekkürler! Sen nasılsın?"
+      ],
+      "answers": [
+        "Teşekkür ederim, çok iyiyim! Umarım siz de harika bir tatil geçiriyorsunuzdur. Size nasıl yardımcı olabilirim?",
+        "Ben gayet iyiyim, teşekkürler! Tatiliniz nasıl gidiyor? Size nasıl yardımcı olabilirim?",
+        "Çok sevindim! Ben buradayım, tatilinizi daha da güzelleştirmek için hazırım. Hangi konuda bilgi istersiniz?"
+      ]
+    },
+    "assistance_and_capabilities": {
+      "questions": [
+        "Bana yardım edebilir misin?",
+        "Burada neler yapabilirim?",
+        "Tatilimi nasıl daha keyifli hale getirebilirim?",
+        "Neler yapıyorsun?",
+        "Tatilimi planlamama yardım eder misin?"
+      ],
+      "answers": [
+        "Elbette! Tatilinizle ilgili tüm sorularınızı yanıtlamak ve size yardımcı olmak için buradayım.",
+        "Otelimizde konforlu odalar, lezzetli yemekler, çeşitli aktiviteler ve daha fazlası var! Detaylı bilgi isterseniz sorabilirsiniz.",
+        "Size önerilerim var! Restoranlar, spa, aktiviteler ve özel hizmetlerimiz hakkında bilgi almak ister misiniz?",
+        "Ben burada sizin sorularınızı yanıtlıyor ve tatilinizi kolaylaştırmak için çalışıyorum.",
+        "Tabii ki! Otelimizdeki aktiviteler, yemek seçenekleri ve diğer hizmetler hakkında bilgi verebilirim."
+      ]
+    },
+    "general_info": {
+      "questions": [
+        "Bugün hava nasıl?",
+        "Kaç dil konuşuyorsun?"
+      ],
+      "answers": [
+        "Otelimizin bulunduğu bölgenin güncel hava durumunu öğrenmek ister misiniz? Size hemen söyleyebilirim!",
+        "Türkçe, İngilizce, Almanca ve Rusça dillerinde size yardımcı olabilirim!"
+      ]
+    }
+  },
+  "rooms": {
+    "room_types": {
+      "questions": [
+        "Standart odaların büyüklüğü nedir?",
+        "Aile odalarının büyüklüğü ne kadar?",
+        "Engelli odalarının büyüklüğü kaç metrekare?",
+        "Standart odalar kaç kişi kapasitelidir?",
+        "Aile odaları kaç kişi kalabilir?",
+        "Aile odalarında kaç yatak var?",
+        "Aile odalarında çocuk yatağı eklenebilir mi?"
+      ],
+      "answers": [
+        "Standart odalarımız 29 metrekare büyüklüğünde, rahat bir konaklama için ideal.",
+        "Aile odalarımız 45 metrekare ve içinde iki yatak odası bulunuyor, geniş ve konforlu.",
+        "Engelli odalarımız da 29 metrekare ve özel tasarımıyla konforlu bir konaklama sunuyor.",
+        "Standart odalar genellikle 2 kişi konaklama için uygundur.",
+        "Aile odaları 3-4 kişi için geniş ve rahat bir alan sunar.",
+        "Aile odalarımızda iki ayrı yatak odası var, böylece aileniz rahatça konaklayabilir.",
+        "Evet, talep ederseniz çocuk yatağı ekleyebiliriz."
+      ]
+    },
+    "room_features": {
+      "questions": [
+        "Odalarınızda balkon var mı?",
+        "Odalarda klima var mı?",
+        "Zeminler hangi türden?",
+        "Odalarda kasa var mı?",
+        "Mini bar odalarda mevcut mu?",
+        "Saç kurutma makinesi var mı?",
+        "Odalarda duş kabini mi var?",
+        "Odalarda televizyon var mı?",
+        "Direkt telefon mevcut mu?",
+        "İnternet bağlantısı odalarda var mı?",
+        "Odalarda elektrik prizleri yeterli mi?",
+        "Odalarda ücretsiz su var mı?",
+        "LCD TV kaç inç?",
+        "Odalarda ütü var mı?",
+        "Standart odalarda çalışma masası var mı?"
+      ],
+      "answers": [
+        "Evet, tüm oda tiplerimizde balkon mevcut, deniz havasını rahatça soluyabilirsiniz.",
+        "Tabii ki! Her odada split klima sistemi ile istediğiniz sıcaklıkta konaklayabilirsiniz.",
+        "Odalarımızda laminat zemin kullanıyoruz, temiz ve şık bir görünüme sahip.",
+        "Evet, tüm odalarda değerli eşyalarınızı güvenle saklayabileceğiniz kasa bulunuyor.",
+        "Elbette, mini bar her odada mevcut, böylece içeceklerinizi istediğiniz zaman alabilirsiniz.",
+        "Tüm odalarımızda saç kurutma makinesi bulunmakta, kişisel bakımınız için kolaylık sağlıyor.",
+        "Evet, odalarımızda modern duş kabinleri mevcut, konforunuz için özenle seçildi.",
+        "Tabii ki, her odada LCD TV ve uydu yayını ile geniş kanal seçenekleri sizleri bekliyor.",
+        "Evet, her odada direkt telefon hattı var, resepsiyon veya dış arama yapabilirsiniz.",
+        "Otel genelinde hızlı ve ücretsiz Wi-Fi hizmetimiz mevcut, odalar da dahil.",
+        "Her odada ihtiyaç duyacağınız kadar priz bulunmaktadır.",
+        "Girişte ücretsiz su şişesi temin edilir, sonrasında talebe göre sunulur.",
+        "Odalarımızda genellikle 32-40 inç arasında LCD TV'ler bulunuyor.",
+        "Ütü talep üzerine sağlanabilir, lütfen resepsiyona bildirin.",
+        "Bazı standart odalarımızda küçük bir çalışma masası bulunur, ihtiyaç halinde talep edebilirsiniz."
+      ]
+    },
+    "disabled_rooms": {
+      "questions": [
+        "Engelli odalarında özel teknik donanımlar var mı?",
+        "Engelli odalarında banyoda tutunma barları var mı?",
+        "Engelli odalarında rampa veya asansör var mı?",
+        "Engelli odalarında ekstra hizmetler var mı?",
+        "Engelli odalarında kapı genişliği nasıl?",
+        "Engelli odalarında tuvalet ve banyo erişimi nasıl?",
+        "Engelli odalarında acil durum butonu var mı?",
+        "Engelli odalarında tekerlekli sandalye kiralama mümkün mü?"
+      ],
+      "answers": [
+        "Engelli odalarımızda kolay erişim sağlayan tasarım ve yardımcı ekipmanlar bulunuyor.",
+        "Evet, engelli odalarında güvenliğiniz için tutunma barları bulunuyor.",
+        "Otel genelinde rampa ve asansör imkanı var, engelli odalarımıza kolayca ulaşabilirsiniz.",
+        "İhtiyaç halinde özel servis ve destek sunuyoruz, lütfen talebinizi önceden bildirin.",
+        "Kapılar geniş ve tekerlekli sandalye kullanımına uygundur.",
+        "Engelli odalarımızda tuvalet ve banyo alanları tekerlekli sandalye kullanıcıları için uygun şekilde düzenlenmiştir.",
+        "Evet, engelli odalarında acil durumlar için özel butonlar bulunmaktadır.",
+        "Evet, otelimizde tekerlekli sandalye kiralama hizmeti sunulmaktadır, önceden bilgi vermeniz yeterlidir."
+      ]
+    },
+    "room_services": {
+      "questions": [
+        "Oda temizliği ne sıklıkla yapılır?",
+        "Mini bar ücretli mi?",
+        "Odada kahvaltı servisi var mı?",
+        "Oda servisi hizmetiniz var mı?",
+        "Oda giriş ve çıkış saatleri nedir?",
+        "Oda kartımı kaybedersem ne yapmalıyım?",
+        "Oda temizliği sırasında dışarıda olmam gerekiyor mu?",
+        "Odada minibar ürünleri nasıl sipariş edilir?",
+        "Oda temizliği sırasında özel taleplerimi iletebilir miyim?"
+      ],
+      "answers": [
+        "Odalarınız günlük olarak temizlenir ve hijyen önceliğimizdir.",
+        "Mini bardaki ürünler ücretlidir, talep ettiğinizde faturaya yansır.",
+        "Kahvaltı restoranımızda servis edilir, oda servisi olarak sunulmamaktadır.",
+        "Evet, sınırlı saatlerde oda servisi sunuyoruz. Detaylı bilgi için resepsiyona danışabilirsiniz.",
+        "Giriş saati 14:00, çıkış saati ise 12:00'dir.",
+        "Resepsiyona başvurun, size hızlıca yeni kart çıkaralım.",
+        "Hayır, isterseniz odada kalabilirsiniz ama temizlik için uygun zaman ayarlanır.",
+        "Mini bar doludur, talep ettiğiniz ürünü kullandıktan sonra oda hesabınıza eklenir.",
+        "Tabii ki, temizlik personeline veya resepsiyona özel isteklerinizi iletebilirsiniz."
+      ]
+    },
+    "comfort_and_safety": {
+      "questions": [
+        "Odalar ses yalıtımı konusunda nasıl?",
+        "Oda ışıkları ayarlanabilir mi?",
+        "Otelde oda şifresi var mı?",
+        "Oda kapıları güvenli mi?",
+        "Odalarda yangın alarmı var mı?",
+        "Odalarda küçük çocuklar için priz koruyucu var mı?",
+        "Odalar ses geçirmez mi?",
+        "Balkonlarda güneşten korunmak için tenteler var mı?"
+      ],
+      "answers": [
+        "Odalarımız iyi ses yalıtımlıdır, rahat bir uyku için ideal.",
+        "Evet, odalarda ışık seviyesini istediğiniz gibi ayarlayabilirsiniz.",
+        "Elektronik kartlar sayesinde güvenli erişim sağlanıyor.",
+        "Otelimizde elektronik kart sistemi ile güvenlik üst düzeydedir, her odanın girişinde ekstra koruma sağlanır.",
+        "Evet, tüm odalarda güvenlik için yangın alarm sistemleri bulunmaktadır.",
+        "Evet, talep halinde priz koruyucular temin edilebilir.",
+        "Odalarımızda yüksek kalite izolasyon kullanılmıştır, böylece dış sesler minimum seviyededir.",
+        "Bazı balkonlarda tente veya güneşlik bulunmaktadır."
+      ]
+    }
+  },
+  "general_information": {
+    "check_in_out": {
+      "questions": [
+        "Otele giriş saati kaçtır?",
+        "Otelden çıkış saati kaçtır?"
+      ],
+      "answers": [
+        "Otele giriş saati (check-in) 14.00'dür.",
+        "Otelden çıkış saati (check-out) 12.00'dir."
+      ]
+    },
+    "beverage_service": {
+      "questions": [
+        "Kahvaltıda alkollü içki servis ediliyor mu?",
+        "Otelde alkollü içkiler nasıl servis edilir?",
+        "Otelde cam bardak kullanılabilir mi?",
+        "18 yaşından küçüklere alkollü içki servis edilir mi?",
+        "Taze sıkılmış meyve suyu otelde ücretsiz midir?",
+        "Otelde içecek servisi nasıl yapılır?",
+        "Otelde kullanılan bardaklar hakkında bilgi verir misiniz?"
+      ],
+      "answers": [
+        "Kahvaltıda alkollü içki servis edilmemektedir.",
+        "Her şey dahil konseptinde alkollü içki ve içecekler sadece bardakta servis edilir.",
+        "Güvenliğiniz için sahil ve pool barlarda cam bardak kullanılmamaktadır.",
+        "T.C. yasalarına göre 18 yaşından küçüklere alkollü içki verilmez ve servis edilmez.",
+        "Taze sıkılmış meyve suları ücretlidir.",
+        "Her şey dahil konseptinde içki ve içecekler sadece bardakta servis edilir.",
+        "Güvenliğiniz için sahil ve pool barlarda cam bardak kullanılmamaktadır."
+      ]
+    },
+    "minibar_and_room_service": {
+      "questions": [
+        "Mini bar nasıl doldurulur ve ücretli midir?",
+        "Mini bar günde kaç defa doldurulur?",
+        "Odaya yiyecek ve içecek servisi var mı?",
+        "Mini bar içeriği nelerden oluşmaktadır?"
+      ],
+      "answers": [
+        "Mini bar ücretsizdir ve günde bir defa soft içeceklerle doldurulmaktadır.",
+        "Mini bar günde bir defa soft içeceklerle doldurulmaktadır.",
+        "Odalara yiyecek ve içecek servisi ücretlidir.",
+        "Mini bar günlük olarak soft içeceklerle doldurulmaktadır."
+      ]
+    },
+    "internet_and_communication": {
+      "questions": [
+        "Otelde ücretsiz internet var mı?",
+        "İnternete bağlanmak için şifre nasıl oluşturulur?",
+        "Misafir ilişkilerine nasıl ulaşabilirim?",
+        "Doktora nasıl ulaşırım?",
+        "Otel resepsiyonu hangi numaralardan aranabilir?",
+        "Otelden dış hat araması nasıl yapılır?",
+        "Otelin santral numarası nedir?"
+      ],
+      "answers": [
+        "Lobby genel alanlar ve odalarda ücretsiz Wireless internet bağlantısı bulunmaktadır.",
+        "Wireless'e bağlanmak için kullanıcı kodu: Oda Numaranız + Doğum yılınız şeklindedir.",
+        "Misafir İlişkileri dahili telefonu 505'tir.",
+        "Doktor numarası 333'tür.",
+        "Resepsiyon için 501, 502 ve 503 numaraları kullanılmaktadır.",
+        "Dış hat araması için önce 0 tuşlanmalıdır.",
+        "Santral numarası 9'dur."
+      ]
+    },
+    "paid_services": {
+      "questions": [
+        "Kuaför ve masaj hizmetleri otelde ücretli mi?",
+        "Otelde telefon kullanımı ücretsiz midir?",
+        "Doktor ve sağlık hizmetleri var mı?",
+        "Çamaşırhane servisi ücretsiz mi?"
+      ],
+      "answers": [
+        "Kuaför, masaj, kese, cilt ve vücut bakımı gibi talep edilen hizmetler ücretlidir.",
+        "Telefon ücretlidir.",
+        "Doktor ve sağlık hizmetleri ücretlidir.",
+        "Çamaşırhane servisimiz ücretlidir."
+      ]
+    },
+    "hotel_contact": {
+      "questions": [
+        "Otelin adresi nedir?",
+        "Otelin e-posta adresi nedir?",
+        "Otelin telefon numarası nedir?"
+      ],
+      "answers": [
+        "Aydınbey Famous Resort, Yeni Mahallesi, 33. Sokak No:51, 07552 Serik - Antalya'dadır.",
+        "Otelin e-posta adresi infofamous@aydinbeyhotels.com.tr'dir.",
+        "Otelin telefon numarası (0 242) 212 19 42'dir."
+      ]
+    },
+    "a_la_carte_restaurants": {
+      "questions": [
+        "Otelde 7 gece üzeri konaklama yaparsam A La Carte restoranları kaç kez kullanabilirim?",
+        "A La Carte restoran rezervasyonunu nasıl yaptırabilirim?",
+        "A La Carte restoranlarda kapasite durumu nasıl?"
+      ],
+      "answers": [
+        "7 gün ve üzeri konaklayan misafirlerin rezervasyon yaptırmak kaydı ile A La Carte restoranlardan 1 kez faydalanma hakları vardır.",
+        "Rezervasyonlar 1 gün önceden, 10.00-12.00 saatleri arasında Misafir İlişkileri tarafından yapılmaktadır.",
+        "Kapasiteler sınırlı olup rezervasyonlu misafirler önceliklidir."
+      ]
+    },
+    "towels_and_cleaning": {
+      "questions": [
+        "Plaj ve havuzda havlu temini nasıl yapılır?",
+        "Havlu ve nevresimler ne sıklıkla değiştiriliyor?",
+        "Havlu kartı veya oda kartı kaybedersem ne olur?",
+        "Havlu standı nerede bulunur?"
+      ],
+      "answers": [
+        "Plaj ve havuzlarda kullanabileceğiniz havlularınızı, Spa alanındaki havlu standından (08.30 - 12.00 saatleri arasında) temin edebilirsiniz.",
+        "Odalardaki nevresim ve havlular, su tasarrufu için talep edilmediği sürece 2 günde 1 değiştirilmektedir.",
+        "Havlu kartı ve oda kartının kaybedilmesi halinde hesabınıza 10 Euro ilave edilecektir.",
+        "Havlu standı Spa alanındadır ve 08.30 - 12.00 saatleri arasında hizmet vermektedir."
+      ]
+    },
+    "safety_and_valuables": {
+      "questions": [
+        "Değerli eşyalarımı nerede saklamalıyım?",
+        "Kaybolan eşyalarım için ne yapmalıyım?",
+        "Otel yönetimi dışarıdaki faaliyetlerden sorumlu mu?",
+        "Otelde dış alanda sunulan hizmetler hava koşullarına göre değişir mi?"
+      ],
+      "answers": [
+        "Lütfen değerli eşyalarınızı odanızdaki ücretsiz kasanızda saklayınız. Otelimiz herhangi bir para, mücevherat veya değerli eşyaların kaybından sorumlu değildir.",
+        "Kaybolan eşyalarınız için lütfen Resepsiyona veya Misafir İlişkilerine başvurunuz.",
+        "Otel yönetimi misafirin dışarıdaki faaliyetlerden sorumlu değildir.",
+        "Evet, dış alanda sunulan hizmetler hava şartlarına göre değişiklik gösterebilir."
+      ]
+    }
+  },
+  "food_and_beverage": {
+    "main_restaurant": {
+      "questions": [
+        "Kahvaltı saat kaçta başlıyor ve kaçta bitiyor?",
+        "Geç kahvaltı nerede servis ediliyor?",
+        "Ana restoranda öğlen yemeği saat kaçta başlıyor?",
+        "Akşam yemeği ana restoranda hangi saatlerde?",
+        "Gece çorbası nerede ve saat kaçta servis ediliyor?",
+        "Ana restoranda kahvaltıda sıcak yemek var mı?",
+        "Akşam yemeklerinde tatlı çeşitleri nelerdir?",
+        "Sabah kahvaltısında ne tür içecekler servis ediliyor?"
+      ],
+      "answers": [
+        "Ana restoranımızda kahvaltı 07:00 ile 10:00 arasında servis edilmektedir. Geç kahvaltı ise 10:00 ile 10:30 arasındadır.",
+        "Geç kahvaltı, ana restoranımızda 10:00 ile 10:30 saatleri arasında sunulmaktadır.",
+        "Ana restoranda öğlen yemeği 12:30 ile 14:00 saatleri arasında servis edilmektedir.",
+        "Ana restoranda akşam yemeği 18:30 ile 21:00 saatleri arasında sunulmaktadır.",
+        "Gece çorbası, ana restoranımızda 23:00 ile 01:00 saatleri arasında sunulmaktadır.",
+        "Evet, ana restoranımızda kahvaltıda sıcak yemek seçenekleri sunulmaktadır.",
+        "Ana restoranda tatlı büfemizde çeşitli pasta, tatlı ve meyve seçenekleri bulunmaktadır.",
+        "Sabah kahvaltısında çay, kahve, taze meyve suları ve çeşitli içecekler sunulmaktadır."
+      ]
+    },
+    "a_la_carte_restaurants": {
+      "questions": [
+        "A La Carte restoran rezervasyonu nasıl yapılır?",
+        "Sultan A La Carte restoran hangi saatlerde açık?",
+        "Roka Balık restoranında hangi yemekler sunuluyor?",
+        "Olivia A La Carte restoran hangi mutfağa ait?",
+        "A La Carte restoran rezervasyonu ücretli mi?",
+        "A La Carte restoranlarda kapasite durumu nasıl?",
+        "Roka A La Carte restoranda hangi yemekler var?",
+        "Sultan A La Carte restoranında hangi yemekler var?"
+      ],
+      "answers": [
+        "A La Carte restoranlarımız için rezervasyonlar, 1 gün önceden 10:00-12:00 saatleri arasında Misafir İlişkileri Departmanımızdan yapılmaktadır.",
+        "Sultan A La Carte restoranımız Türk mutfağının lezzetlerini sunar ve 19:00 ile 21:00 saatleri arasında hizmet verir.",
+        "Roka A La Carte restoranımızda taze deniz ürünleri ve balık çeşitleri sunulmaktadır. Restoranımız 19:00 ile 21:00 saatleri arasında hizmetinizdedir.",
+        "Olivia A La Carte restoranımız İtalyan mutfağına aittir ve 19:00 ile 21:00 saatleri arasında hizmet vermektedir.",
+        "Hayır, rezervasyon yaptırmak kaydıyla 7 gün ve üzeri konaklayan misafirlerimiz, A La Carte restoranlarımızdan bir kez ücretsiz faydalanabilir.",
+        "Kapasiteler sınırlı olup rezervasyonlu misafirler önceliklidir.",
+        "Roka A La Carte restoranımızda deniz ürünleri ve taze balık çeşitleri servis edilmektedir.",
+        "Sultan A La Carte restoranımızda Türk mutfağından geleneksel tatlar ve ızgara çeşitleri sunulmaktadır."
+      ]
+    },
+    "snack_and_patisserie": {
+      "questions": [
+        "Snack restoranında ne tür yiyecekler bulunur?",
+        "Pastaneden hangi saatlerde hizmet alabilirim?",
+        "Gözleme servisiniz saat kaçta başlıyor?",
+        "Pişi servisi var mı?",
+        "Dondurma servisi hangi saatlerde yapılır?",
+        "Gözlemede hangi çeşitler bulunuyor?",
+        "Snack restoran hangi konseptte hizmet veriyor?",
+        "Pastanede hangi tatlılar var?"
+      ],
+      "answers": [
+        "Snack restoranımızda mini açık büfe olarak tavuk döner, ızgara çeşitleri, sulu yemekler, pilav, salata, tatlı ve meyve gibi lezzetler sunulmaktadır.",
+        "Pastane (patisserie) 11:00 ile 17:00 saatleri arasında self servis olarak hizmet vermektedir.",
+        "Gözleme servisimiz gözleme büfemizde 11:00 ile 16:00 saatleri arasında self servis olarak yapılmaktadır.",
+        "Evet, pişi servisi gözleme büfesinin karşısında 11:00 ile 12:00 saatleri arasında yapılmaktadır.",
+        "Dondurma servisi Snack restoranımızda ve Olivia restoranımızda 12:00 ile 16:00 saatleri arasında yapılmaktadır.",
+        "Gözleme köşemizde patatesli, peynirli ve kıymalı çeşitlerimiz bulunmaktadır.",
+        "Snack restoranımız, hem açık büfe hem de A La Carte olarak öğlen saatlerinde hizmet vermektedir.",
+        "Pastanemizde günlük taze tatlılar, kurabiyeler ve kek çeşitleri sunulmaktadır."
+      ]
+    },
+    "bars_and_beverages": {
+      "questions": [
+        "Pool Bar hangi saatler arasında açık?",
+        "Çay ve kahve nereden alabilirim?",
+        "Chia Pool Bar'da hangi içecekler servis ediliyor?",
+        "Snack Bar'da hangi içecekler servis ediliyor?",
+        "Üst Lobby Keyif Bar'da hangi içecekler var?",
+        "Alt Lobby Queen's Bar 24 saat mi açık?",
+        "Barlarda hangi alkollü içecekler var?",
+        "Her şey dahil konseptte hangi içecekler ücretsiz?"
+      ],
+      "answers": [
+        "Pool Barımız 10:00 ile 24:00 saatleri arasında hizmetinizdedir. Yerli ve yabancı, alkollü ve alkolsüz içeceklerimiz bulunmaktadır.",
+        "Çay, kahve ve bitki çayları için Üst Lobby Keyif Bar'ımızı ziyaret edebilirsiniz. Barımız 09:00 ile 24:00 saatleri arasında açıktır.",
+        "Chia Pool Bar'da yerli ve yabancı alkollü ile alkolsüz içecekler sunulmaktadır. Barımız 10:00 ile 24:00 saatleri arasında açıktır.",
+        "Snack Bar'da soft içecekler, çay, kahve, bitki çayları ve alkollü içecekler masaya servis edilmektedir. Barımız 12:00 ile 16:00 saatleri arasında açıktır.",
+        "Üst Lobby Keyif Bar'da çay, kahve çeşitleri ve bitki çayları self servis olarak 09:00 ile 24:00 saatleri arasında sunulmaktadır.",
+        "Evet, Alt Lobby Queen's Bar 24 saat boyunca hizmet vermektedir ve yerli-yabancı alkollü ve alkolsüz içecekler sunulmaktadır.",
+        "Barlarımızda yerli ve ithal birçok alkollü içecek seçeneği bulunmaktadır.",
+        "Yerli alkollü ve alkolsüz içecekler konseptimiz dahilindedir ve bardakta servis edilir."
+      ]
+    },
+    "beverage_rules": {
+      "questions": [
+        "Kahvaltıda alkollü içki servis ediliyor mu?",
+        "18 yaşından küçüklere alkollü içki servis edilir mi?",
+        "Otelde cam bardak kullanılabilir mi?",
+        "Taze sıkılmış meyve suyu otelde ücretsiz midir?",
+        "Havuz başında cam bardak kullanabilir miyim?",
+        "Barlarda şişe içecekler var mı?"
+      ],
+      "answers": [
+        "Kahvaltıda alkollü içki servis edilmemektedir.",
+        "T.C. yasalarına göre 18 yaşından küçüklere alkollü içki verilmez ve servis edilmez.",
+        "Güvenliğiniz için sahil ve pool barlarda cam bardak kullanılmamaktadır.",
+        "Taze sıkılmış meyve suları ücretlidir.",
+        "Hayır, güvenliğiniz için havuz kenarında cam bardak kullanılmamaktadır.",
+        "Her şey dahil konseptimiz gereği içecekler sadece bardakta servis edilmektedir."
+      ]
+    }
+  },
+  "activities_and_sports": {
+    "mini_club": {
+      "questions": [
+        "Mini Club hangi yaş grubu için uygundur?",
+        "Mini Club'da eğitmenler hangi dilleri konuşuyor?",
+        "Mini Club'a çocuk bırakabiliyor muyuz?",
+        "Mini Club'da özel etkinlikler düzenleniyor mu?",
+        "Mini Club'da eğitmen sayısı yeterli mi?",
+        "Mini Club'a çocuklar yalnız bırakılabilir mi?",
+        "Mini Club'a 4 yaşından küçük çocuklar katılabilir mi?",
+        "Mini Club hangi dillerde hizmet veriyor?",
+        "Mini Club'da çocuklar için güvenlik önlemleri alınıyor mu?",
+        "Mini Club'da eğitmenler çocuklarla birebir ilgileniyor mu?",
+        "Mini Club'da etkinlik programı sabit mi?",
+        "Mini Club aktiviteleri dışarıdan katılıma açık mı?",
+        "Mini Club'da çocuklara öğle yemeği veriliyor mu?",
+        "Mini Club'da ebeveynler çocuklarını bırakabilir mi?",
+        "Mini Club'daki eğitmenlerin yeterlilikleri nedir?",
+        "Mini Club'da hangi tür aktiviteler yapılır?",
+        "Mini Club'a rezervasyon yaptırmak gerekiyor mu?"
+      ],
+      "answers": [
+        "Mini Club, 4-12 yaş aralığındaki çocuklar için uygundur.",
+        "Mini Club eğitmenleri Türkçe, İngilizce, Almanca ve Rusça konuşmaktadır.",
+        "Evet, Mini Club'a çocuğunuzu bırakabilirsiniz. Ancak belirli yaş sınırları ve saatler dahilinde geçerlidir.",
+        "Evet, Mini Club'da çocuklar için özel etkinlikler ve oyunlar düzenlenmektedir.",
+        "Evet, Mini Club'da yeterli sayıda deneyimli eğitmen bulunmaktadır.",
+        "Evet, Mini Club'da çocuklarınızı bırakabilirsiniz. Ancak bazı aktivitelerde ebeveyn gözetimi gerekebilir.",
+        "Hayır, Mini Club 4-12 yaş aralığındaki çocuklar için uygundur.",
+        "Mini Club Türkçe, İngilizce, Almanca ve Rusça dillerinde hizmet vermektedir.",
+        "Evet, Mini Club'da çocukların güvenliği için gerekli tüm önlemler alınmaktadır.",
+        "Evet, eğitmenler çocuklarla birebir ilgilenmektedir.",
+        "Mini Club etkinlik programı haftalık olarak düzenlenmekte ve değişmektedir.",
+        "Hayır, Mini Club aktiviteleri sadece otel misafirlerimize özeldir.",
+        "Hayır, Mini Club'da öğle yemeği servisi bulunmamaktadır.",
+        "Evet, ebeveynler Mini Club'a çocuklarını bırakabilirler. Eğitmenler çocuklarla ilgilenmektedir.",
+        "Mini Club eğitmenleri çocuklarla çalışma konusunda deneyimlidir ve farklı dilleri konuşmaktadır.",
+        "Mini Club'da el işi etkinlikleri, eğitici oyunlar ve dil öğrenimi gibi çeşitli aktiviteler yapılmaktadır.",
+        "Hayır, Mini Club'a rezervasyon gerekmez."
+      ]
+    },
+    "entertainment": {
+      "questions": [
+        "Mini Disco etkinlik saatleri nedir?",
+        "Animasyon şovları hangi saatlerde yapılır?",
+        "Canlı müzik hangi günlerde yapılıyor?",
+        "Karaoke gecesi hangi gün düzenleniyor?",
+        "Four Rooms Dans Şov hangi gün yapılır?",
+        "Colombia Dans Şov ne zaman?",
+        "Elemental etkinliği nedir ve hangi gün yapılır?",
+        "Animasyon şovları nerede düzenleniyor?",
+        "Dans şovları ücretli mi?",
+        "Mini Disco hangi dillerde yapılıyor?",
+        "CHYA Arena'ya nasıl ulaşabilirim?",
+        "Karaoke gecesine rezervasyon gerekiyor mu?",
+        "Canlı müzik etkinliği hangi alanlarda yapılıyor?",
+        "CHYA Arena şovları ücretsiz mi?",
+        "Canlı müzik etkinlikleri her gece mi var?",
+        "Mini Disco etkinliği ücretli mi?",
+        "Animasyon şovlarında oturma düzeni nasıl?",
+        "Mini Disco'da ebeveyn katılımı serbest mi?",
+        "CHYA Arena etkinlikleri için rezervasyon gerekiyor mu?",
+        "CHYA Arena etkinliklerinde oturma düzeni numaralı mı?",
+        "Mini Disco'da çocuklar için ödüller var mı?",
+        "Animasyon şovlarına çocuklar katılabilir mi?",
+        "CHYA Arena'da çocuklara uygun gösteriler var mı?",
+        "Mini Disco etkinliği ne kadar sürüyor?",
+        "Animasyon şovları dış mekanlarda mı yapılıyor?"
+      ],
+      "answers": [
+        "Mini Disco etkinliği her akşam saat 20:30'da başlar.",
+        "Animasyon şovları genellikle 21:30'da başlar.",
+        "Canlı müzik Salı, Perşembe ve Cumartesi günleri saat 21:30'da yapılmaktadır.",
+        "Karaoke gecesi Cuma günü saat 21:30'da düzenlenir.",
+        "Four Rooms Dans Şov, Pazartesi günü saat 21:30'da yapılır.",
+        "Colombia Dans Şov, Çarşamba günü saat 21:30'da yapılır.",
+        "Elemental, Pazar günü saat 21:30'da CHYA Arena'da yapılan özel bir şovdur.",
+        "Animasyon şovları genellikle amfi tiyatroda düzenlenmektedir.",
+        "Dans şovları otel misafirlerimiz için ücretsizdir.",
+        "Mini Disco etkinliği Türkçe, İngilizce, Almanca ve Rusça dillerinde yapılmaktadır.",
+        "CHYA Arena otelimizin eğlence alanındadır. Lobi veya Animasyon Info Board'dan yönlendirme alabilirsiniz.",
+        "Karaoke gecesi için rezervasyon gerekmemektedir. Katılım tüm misafirlerimize açıktır.",
+        "Canlı müzik etkinlikleri CHYA Arena gibi eğlence alanlarımızda yapılmaktadır.",
+        "Evet, CHYA Arena'daki şovlar otel misafirlerimiz için ücretsizdir.",
+        "Evet, canlı müzik etkinlikleri haftanın belirli günlerinde düzenlenmektedir. Programı Animasyon Info Board'dan öğrenebilirsiniz.",
+        "Hayır, Mini Disco etkinliği otel misafirlerimiz için ücretsizdir.",
+        "Animasyon şovlarında oturma düzeni açık hava amfi tiyatro şeklindedir.",
+        "Evet, ebeveynler Mini Disco etkinliğini izleyebilir ancak çocukların sahne alanında yalnız olması tercih edilir.",
+        "Hayır, CHYA Arena etkinlikleri için rezervasyon gerekmemektedir.",
+        "Hayır, oturma düzeni numaralı değildir. Yerler etkinlik başlamadan önce alınabilir.",
+        "Hayır, Mini Disco'da ödüller bulunmamaktadır. Etkinlik eğlence amaçlıdır.",
+        "Evet, animasyon şovları tüm yaş gruplarına açıktır.",
+        "Evet, CHYA Arena'da çocuklara uygun gösteriler de düzenlenmektedir.",
+        "Mini Disco etkinliği yaklaşık bir saat sürmektedir.",
+        "Evet, animasyon şovları genellikle açık hava alanlarında yapılmaktadır."
+      ]
+    },
+    "sports_activities": {
+      "questions": [
+        "Su polosu etkinliği ne zaman düzenleniyor?",
+        "Dart etkinlikleri ne zaman başlıyor?",
+        "Sabah sporu saat kaçta yapılıyor?",
+        "Boccia oyunu saat kaçta başlıyor?",
+        "Sağlıklı yaşam aktivitesi nedir?",
+        "Su voleybolu etkinliği var mı?",
+        "Jimnastik etkinliği hangi saatlerde yapılır?",
+        "Step aerobik etkinliği var mı?",
+        "Sabah turu saat kaçta başlıyor?",
+        "Sabah turu ne içeriyor?",
+        "Su jimnastiği etkinliği her gün yapılıyor mu?",
+        "Step aerobik hangi saatlerde yapılıyor?",
+        "Su jimnastiği açık havuzda mı yapılıyor?",
+        "Su jimnastiği ekipman gerektiriyor mu?",
+        "Turnuvalar hangi spor dallarında düzenleniyor?",
+        "Step aerobik için rezervasyon gerekiyor mu?",
+        "Su topu etkinliği her gün yapılıyor mu?",
+        "Jimnastik etkinliklerine her yaştan katılabilir miyim?",
+        "Su voleybolu için özel kıyafet gerekiyor mu?",
+        "Boccia oyunu için kayıt yaptırmak gerekli mi?",
+        "Dart turnuvaları hangi günler düzenleniyor?",
+        "Sabah sporu açık havada mı yapılıyor?",
+        "Su jimnastiği hangi havuzda yapılıyor?",
+        "Step aerobik etkinliği açık havada mı yapılıyor?",
+        "Boccia oyunu için özel bir alan var mı?",
+        "Su jimnastiği için rezervasyon gerekli mi?",
+        "Dart etkinlikleri her gün mü düzenleniyor?",
+        "Step aerobik etkinliklerinde müzik kullanılıyor mu?",
+        "Su voleybolu hangi saatlerde oynanıyor?",
+        "Boccia oyunu nerede oynanıyor?"
+      ],
+      "answers": [
+        "Su polosu etkinliği saat 15:00'de düzenlenir.",
+        "Dart etkinliği sabah 11:00 ve öğleden sonra 16:00'da başlar.",
+        "Sabah sporu etkinliği saat 10:15'te başlar.",
+        "Boccia oyunu sabah 10:30'da başlar.",
+        "Sağlıklı yaşam aktivitesi hafif egzersiz ve sağlıklı yaşam ipuçları içeren bir etkinliktir ve saat 16:30'da başlar.",
+        "Evet, su voleybolu etkinliği saat 15:30'da yapılır.",
+        "Su jimnastiği etkinliği saat 11:30'da yapılır.",
+        "Evet, step aerobik etkinliği sabah saatlerinde yapılmaktadır. Detaylı saat bilgisi için Animasyon Info Board'a başvurabilirsiniz.",
+        "Sabah turu saat 10:00'da başlar.",
+        "Sabah turu, güne enerjik bir başlangıç için hafif yürüyüş ve esneme hareketlerinden oluşur.",
+        "Evet, su jimnastiği her gün saat 11:30'da yapılmaktadır.",
+        "Step aerobik sabah saatlerinde yapılmaktadır. Tam saat bilgisi için Animasyon Info Board'a bakabilirsiniz.",
+        "Evet, su jimnastiği genellikle açık havuzda yapılmaktadır.",
+        "Hayır, su jimnastiği herhangi bir ekipman gerektirmez.",
+        "Turnuvalar genellikle su voleybolu, dart ve boccia gibi spor dallarında düzenlenmektedir.",
+        "Hayır, step aerobik için rezervasyon gerekmez.",
+        "Evet, su topu etkinliği her gün yapılmaktadır. Günlük saat bilgisi Animasyon Info Board'da bulunabilir.",
+        "Evet, jimnastik etkinlikleri her yaşa uygundur.",
+        "Hayır, su voleybolu için özel kıyafet gerekmez. Ancak mayo veya yüzme kıyafeti giymeniz yeterlidir.",
+        "Hayır, boccia oyununa katılmak için kayıt yaptırmanıza gerek yoktur.",
+        "Dart turnuvaları günlük programda belirtilen saatlerde düzenlenmektedir.",
+        "Evet, sabah sporu genellikle açık havada yapılmaktadır.",
+        "Su jimnastiği açık havuzda yapılmaktadır.",
+        "Evet, step aerobik etkinliği genellikle açık havada yapılmaktadır.",
+        "Evet, boccia oyunu için özel bir alan ayrılmıştır.",
+        "Hayır, su jimnastiği için rezervasyon gerekli değildir.",
+        "Evet, dart etkinlikleri her gün düzenlenmektedir.",
+        "Evet, step aerobik etkinliklerinde motivasyonu artırmak için müzik kullanılır.",
+        "Su voleybolu saat 15:30'da başlamaktadır. Güncel bilgiler Animasyon Info Board'da bulunabilir.",
+        "Boccia oyunu açık hava spor alanlarımızda oynanır."
+      ]
+    },
+    "pools_and_beach": {
+      "questions": [
+        "Aquapark saat kaçta açılıyor?",
+        "Kapalı havuz hangi saatlerde açık?",
+        "Plajda şezlonglar ücretsiz mi?",
+        "Plajda duş alanı var mı?",
+        "Kapalı havuz sıcak mı?",
+        "Plajda su sporları var mı?",
+        "Havuz oyunları saat kaçta başlıyor?",
+        "Aquapark çocuklar için uygun mu?",
+        "Havuzda su oyunları her gün düzenleniyor mu?",
+        "Havuzlar kaçta kapanıyor?",
+        "Havuzda derinlik ne kadar?",
+        "Plaj havlusu nereden temin edilir?",
+        "Havuzda kaydırak var mı?",
+        "Plajda şemsiye ücretsiz mi?",
+        "Sahilde yiyecek-içecek servisi var mı?",
+        "Güneşlenme alanları rezerve edilebilir mi?",
+        "Çocuklar için özel havuz var mı?",
+        "Plajda duş ve soyunma kabini var mı?",
+        "Havuz oyunlarına nasıl katılabilirim?",
+        "Havuzların temizliği nasıl sağlanıyor?",
+        "Plajda şezlong sayısı yeterli mi?",
+        "Plaj alanında yiyecek hizmeti var mı?",
+        "Plajda çocuklar için oyun alanı var mı?",
+        "Havuz kenarında yiyecek ve içecek servisi yapılıyor mu?",
+        "Plaj şemsiyesi ve havlu hizmeti ücretsiz mi?",
+        "Aquapark güvenlik önlemleri nelerdir?",
+        "Havuz oyunlarında ödüller veriliyor mu?",
+        "Plaj alanı otel misafirlerine özel mi?",
+        "Havuzun su sıcaklığı yıl boyunca sabit mi?",
+        "Plajda şnorkel ekipmanı kiralanabiliyor mu?",
+        "Aquapark'ta kaç farklı kaydırak bulunuyor?"
+      ],
+      "answers": [
+        "Aquapark etkinlik saatleri için Misafir İlişkileri'nden detaylı bilgi alabilirsiniz.",
+        "Kapalı havuz kullanım saatleri için Misafir İlişkileri'ne danışabilirsiniz.",
+        "Evet, plajdaki şezlonglar misafirlerimize ücretsiz olarak sunulmaktadır.",
+        "Evet, plajımızda duş alanları bulunmaktadır.",
+        "Kapalı havuzumuzda sıcaklık konfor seviyesinde tutulmaktadır.",
+        "Evet, plajımızda çeşitli su sporları aktiviteleri yapılmaktadır. Detaylı bilgi için Misafir İlişkileri'ne başvurabilirsiniz.",
+        "Havuz oyunları gün içinde farklı saatlerde yapılmaktadır. Günlük programı Animasyon Info Board'dan öğrenebilirsiniz.",
+        "Evet, aquapark çocuklar için uygundur. Ancak çocuklarınızın güvenliği için lütfen onların yanında olunuz.",
+        "Evet, havuzda su oyunları her gün düzenlenmektedir. Günlük detaylar Animasyon Info Board'dan öğrenilebilir.",
+        "Havuzların kapanış saatleri mevsime ve otel politikasına göre değişebilir. Güncel saat bilgisi için resepsiyona danışabilirsiniz.",
+        "Havuzlarımızın derinlikleri farklılık göstermektedir. Detaylı bilgi için havuz kenarındaki tabelaları inceleyebilirsiniz.",
+        "Plaj havlularınızı Spa alanındaki havlu standından temin edebilirsiniz.",
+        "Evet, havuzlarımızda kaydırak bulunmaktadır. Aquapark alanını ziyaret edebilirsiniz.",
+        "Evet, plajda şemsiye kullanımı ücretsizdir.",
+        "Evet, sahilde yiyecek ve içecek servisi yapılmaktadır. Detaylar için Sahil Bar'ı ziyaret edebilirsiniz.",
+        "Güneşlenme alanları rezerve edilemez. İlk gelen, ilk kullanır prensibi uygulanmaktadır.",
+        "Evet, çocuklar için özel bir havuzumuz bulunmaktadır.",
+        "Evet, plajda duş ve soyunma kabinleri bulunmaktadır.",
+        "Havuz oyunlarına katılmak için Animasyon Info Board'daki programa göz atabilirsiniz.",
+        "Havuzlarımız düzenli olarak temizlenmekte ve hijyen standartlarına uygun şekilde kontrol edilmektedir.",
+        "Plajda yeterli sayıda şezlong bulunmaktadır. Ancak erken saatlerde yer ayırtmanız önerilir.",
+        "Evet, plaj alanında yiyecek servisi yapılmaktadır. Sahil restoranımızı ziyaret edebilirsiniz.",
+        "Evet, plajda çocuklar için oyun alanı bulunmaktadır.",
+        "Evet, havuz kenarında yiyecek ve içecek servisi yapılmaktadır.",
+        "Evet, plaj şemsiyesi ve havlu hizmeti ücretsizdir.",
+        "Aquapark'ta cankurtaranlar bulunmaktadır ve kaydırakların kullanımıyla ilgili güvenlik kuralları açıkça belirtilmiştir.",
+        "Hayır, havuz oyunlarında ödüller bulunmamaktadır. Amaç eğlence ve katılımın keyfidir.",
+        "Evet, plaj alanı sadece otel misafirlerine özeldir.",
+        "Evet, havuzun su sıcaklığı yıl boyunca sabit tutulmaktadır.",
+        "Evet, plajda şnorkel ekipmanı kiralanabilir. Detaylar için sahil personeline danışabilirsiniz.",
+        "Aquapark'ta toplamda farklı boyutlarda ve özelliklerde birkaç kaydırak bulunmaktadır. Detaylı bilgi için Aquapark girişine başvurabilirsiniz."
+      ]
+    },
+    "fitness_and_health": {
+      "questions": [
+        "Fitness Center hangi saatlerde kullanılabilir?",
+        "Fitness Center'da eğitmen desteği var mı?",
+        "Fitness Center'da ekipman kullanımı ücretsiz mi?",
+        "Fitness Center'da grup dersleri düzenleniyor mu?",
+        "Fitness Center'ın çalışma saatleri nedir?",
+        "Fitness Center'a giriş için kıyafet kuralları var mı?"
+      ],
+      "answers": [
+        "Fitness Center sabah 07:00 ile akşam 21:00 saatleri arasında hizmet vermektedir.",
+        "Fitness Center'da eğitmen desteği için resepsiyona danışabilirsiniz.",
+        "Evet, Fitness Center'daki ekipmanların kullanımı ücretsizdir.",
+        "Fitness Center'da grup dersleri düzenlenmektedir. Detaylar için resepsiyona başvurabilirsiniz.",
+        "Fitness Center'ın çalışma saatleri için lobiye veya resepsiyona danışabilirsiniz.",
+        "Evet, Fitness Center'a spor kıyafetleri ve uygun spor ayakkabısı ile giriş yapılması gerekmektedir."
+      ]
+    }
+  },
+  "spa": {
+    "free_services": {
+      "questions": [
+        "Sauna kullanımı ücretli mi?",
+        "Kapalı havuzdan ücretsiz faydalanabilir miyim?",
+        "Hamam hizmeti otelde mevcut mu?",
+        "Fitness Center kullanımı için ekstra ücret ödemem gerekiyor mu?",
+        "Sauna ve hamam ücretsiz mi?",
+        "Kapalı havuz ücretsiz mi?",
+        "Spa alanında havlu temin ediliyor mu?",
+        "Fitness Center kullanımı için ekstra ücret var mı?"
+      ],
+      "answers": [
+        "Hayır, sauna kullanımı ücretsizdir.",
+        "Evet, kapalı havuz ücretsiz hizmetlerimiz arasındadır.",
+        "Evet, hamam hizmetimiz ücretsiz olarak sunulmaktadır.",
+        "Hayır, fitness center kullanımı ücretsizdir.",
+        "Evet, sauna ve hamam ücretsiz hizmetlerimizdendir.",
+        "Evet, kapalı havuz ücretsiz olarak hizmetinizdedir.",
+        "Evet, spa alanında havlu temini ücretsizdir.",
+        "Fitness Center kullanımı ücretsizdir."
+      ]
+    },
+    "paid_services": {
+      "questions": [
+        "Masaj hizmetleri otelde var mı?",
+        "Vücut ve cilt bakım hizmetleri alabilir miyim?",
+        "Kese hizmeti sunuluyor mu?",
+        "Kuaför hizmeti otelde var mı?",
+        "Ücretsiz hizmetler dışında ekstra ücret ödemem gereken başka spa hizmetleri var mı?",
+        "Spa merkezinde terapiler var mı?",
+        "Kese hizmeti ücretli midir?",
+        "Kuaför hizmetlerinde hangi işlemler yapılmaktadır?",
+        "Kuaför hizmetleri için ödeme nasıl yapılıyor?",
+        "Vücut bakımında hangi ürünler kullanılıyor?",
+        "Masaj çeşitleri nelerdir?",
+        "Spa alanında özel paketler var mı?",
+        "Vücut ve cilt bakım ürünleri otelde satılıyor mu?",
+        "Kese sonrası cilt bakımı yapılabilir mi?",
+        "Masaj hizmetlerinde erkek ve kadın terapistler var mı?"
+      ],
+      "answers": [
+        "Evet, masaj hizmetleri ücretli olarak sunulmaktadır.",
+        "Evet, vücut ve cilt bakım hizmetleri otelimizde ücretli olarak verilmektedir.",
+        "Evet, kese hizmetimiz ücretli olarak mevcuttur.",
+        "Evet, kuaför hizmeti otelimizde ücretli olarak sunulmaktadır.",
+        "Evet, vücut bakımı, cilt bakımı, masaj, kuaför ve kese gibi hizmetler ücretlidir.",
+        "Evet, spa merkezinde farklı terapi hizmetleri ücretli olarak sunulmaktadır.",
+        "Evet, kese hizmeti ücretlidir.",
+        "Kuaför hizmetlerinde saç kesimi, şekillendirme ve boya işlemleri ücretli olarak sunulmaktadır.",
+        "Kuaför hizmetleri otel hesabınıza eklenir ve çıkışta ödeme yapılır.",
+        "Vücut bakımında kullanılan ürünler profesyonel ve kaliteli markalardan oluşmaktadır.",
+        "Masaj çeşitleri ve detayları spa merkezinden öğrenilebilir.",
+        "Özel gün paketleri hakkında spa merkezinden bilgi alınabilir.",
+        "Ürün satışı ile ilgili bilgi için spa merkezinden destek alabilirsiniz.",
+        "Evet, kese sonrası cilt bakımı hizmetleri sunulmaktadır.",
+        "Evet, hem erkek hem kadın terapistler hizmet vermektedir."
+      ]
+    },
+    "facilities_and_rules": {
+      "questions": [
+        "Sauna ve hamam saat kaçta açılıyor?",
+        "Kapalı havuz ne zaman kullanıma açıktır?",
+        "Spa hizmetlerinden nasıl randevu alabilirim?",
+        "Spa hizmetleri kaç yaşından itibaren alınabilir?",
+        "Hamam ve saunada kadın-erkek ayrı bölümler var mı?",
+        "Kuaför hizmeti için önceden rezervasyon gerekli mi?",
+        "Spa hizmetleri kaçıncı katta bulunuyor?",
+        "Kapalı havuzda çocuklar da yüzebilir mi?",
+        "Saunaya giriş için rezervasyon gerekiyor mu?",
+        "Hamam kaç kişilik kapasiteye sahip?",
+        "Kapalı havuzun su sıcaklığı ne kadardır?",
+        "Fitness Center'da hangi ekipmanlar mevcut?",
+        "Kuaför hafta sonları da açık mı?",
+        "Sauna ve hamam kullanımında yaş sınırı var mı?",
+        "Spa merkezi hangi saatler arasında açıktır?",
+        "Masaj hizmetleri kaç dakika sürüyor?",
+        "Fitness Center kullanımı için herhangi bir kıyafet kuralı var mı?",
+        "Spa alanında rezervasyon iptali nasıl yapılır?",
+        "Hamamda kullanılan ürünler nelerdir?",
+        "Spa ve wellness alanında sigara içmek serbest mi?",
+        "Fitness Center'da grup dersleri veriliyor mu?",
+        "Spa merkezi engelli misafirler için erişilebilir mi?",
+        "Saunaya kaç yaşından itibaren girilebilir?",
+        "Masaj rezervasyonu nasıl yapılır?",
+        "Kapalı havuzun çalışma saatleri nelerdir?",
+        "Fitness Center kaçta açılıyor?",
+        "Spa alanında hijyen önlemleri nasıl sağlanıyor?",
+        "Hamam kullanımı için rezervasyon gerekir mi?",
+        "Sauna ve hamam kaç kişi kapasitelidir?",
+        "Kuaför randevusu nasıl alınır?",
+        "Sauna ne kadar süre kullanılabilir?",
+        "Spa alanında içecek servisi var mı?",
+        "Kuaförde hangi saatler arasında hizmet veriliyor?",
+        "Vücut bakımı için kaç saat önceden rezervasyon yapılmalı?",
+        "Hamam kullanımı kaç dakika sürer?",
+        "Spa alanında çocuklar için hizmet var mı?",
+        "Sauna ve hamam kullanımında hijyen kuralları nelerdir?",
+        "Kapalı havuzda cankurtaran bulunuyor mu?",
+        "Spa merkezi hangi katmanda bulunuyor?",
+        "Sauna kullanımında nelere dikkat etmek gerekir?",
+        "Masaj sırasında müzik çalınıyor mu?",
+        "Hamam hizmetleri hangi dillerde sunuluyor?",
+        "Fitness Center kullanımı için yaş sınırı var mı?"
+      ],
+      "answers": [
+        "Sauna ve hamam saatleri hakkında bilgi almak için lütfen resepsiyona başvurunuz.",
+        "Kapalı havuzun kullanım saatleri için otel personeline danışabilirsiniz.",
+        "Spa ve wellness hizmetleri için randevuları resepsiyondan ya da Misafir İlişkileri'nden alabilirsiniz.",
+        "Spa hizmetleri yaş sınırlaması hakkında detaylı bilgi için lütfen resepsiyona danışınız.",
+        "Evet, hamam ve sauna bölümleri kadın ve erkekler için ayrı alanlardır.",
+        "Kuaför hizmeti için rezervasyon önerilir, detaylı bilgi resepsiyonda.",
+        "Spa ve wellness merkezi hakkında detaylı bilgi için resepsiyona başvurabilirsiniz.",
+        "Kapalı havuzda çocukların yüzmesi için belirli kurallar olabilir, detay için resepsiyon ile görüşünüz.",
+        "Sauna kullanımı için önceden rezervasyon gerekmemektedir.",
+        "Hamam kapasitesi hakkında detaylı bilgi için lütfen Misafir İlişkileri ile iletişime geçiniz.",
+        "Kapalı havuzun su sıcaklığı standart konfor seviyesindedir, detaylı bilgi için spa merkezine danışabilirsiniz.",
+        "Fitness Center'da çeşitli kardiyo ve ağırlık ekipmanları bulunmaktadır, detaylı bilgi için spa merkezine danışabilirsiniz.",
+        "Kuaför hizmetlerinin çalışma saatleri için resepsiyona başvurabilirsiniz.",
+        "Sauna ve hamam kullanımı için yaş sınırı ve kurallar hakkında detaylı bilgi resepsiyonda mevcuttur.",
+        "Spa merkezinin çalışma saatleri hakkında bilgi almak için resepsiyona danışınız.",
+        "Masaj süreleri ve çeşitleri için spa merkezinden bilgi alabilirsiniz.",
+        "Fitness Center'da uygun spor kıyafetleri kullanmanız önerilir, detay için spa merkezine danışınız.",
+        "Spa hizmetleri iptali için resepsiyonla iletişime geçebilirsiniz.",
+        "Hamamda kullanılan ürünler hakkında spa merkezinden bilgi alabilirsiniz.",
+        "Spa ve wellness alanlarında sigara içmek yasaktır.",
+        "Grup dersleri hakkında detaylı bilgi için spa merkezine danışabilirsiniz.",
+        "Spa merkezi erişilebilirlik konusunda bilgi almak için resepsiyona başvurabilirsiniz.",
+        "Sauna kullanımı için yaş sınırı ile ilgili detaylı bilgi resepsiyondan alınabilir.",
+        "Masaj rezervasyonları için spa merkezi veya resepsiyonla iletişime geçebilirsiniz.",
+        "Kapalı havuzun çalışma saatleri için spa merkezinden bilgi alabilirsiniz.",
+        "Fitness Center'ın çalışma saatleri resepsiyonda mevcuttur.",
+        "Spa alanında hijyen standartlarına büyük önem verilmektedir.",
+        "Hamam kullanımı için önceden rezervasyon gerekmemektedir.",
+        "Kapasite detayları için spa merkezinden bilgi alınabilir.",
+        "Kuaför randevuları spa merkezinden veya resepsiyondan alınabilir.",
+        "Sauna kullanım süresi kişisel tercihe bağlıdır, önerilen süre için spa görevlilerine danışabilirsiniz.",
+        "Spa alanında içecek servisi hakkında detaylı bilgi spa merkezinden alınabilir.",
+        "Kuaför hizmet saatleri resepsiyonda belirtilmiştir.",
+        "Vücut bakımı rezervasyonları için erken başvuru tavsiye edilir, detay spa merkezinde.",
+        "Hamam kullanımı genellikle 30-60 dakika arasında değişmektedir.",
+        "Spa alanında çocuklara yönelik hizmet bulunmamaktadır.",
+        "Hijyen kuralları spa alanında asılıdır ve misafirlerimizin uyması beklenir.",
+        "Kapalı havuzda cankurtaran görevlisi bulunmaktadır.",
+        "Spa merkezi otelin belirlenen katında yer almaktadır, detay resepsiyonda mevcuttur.",
+        "Sauna kullanımında sağlık durumu göz önünde bulundurulmalıdır.",
+        "Masaj sırasında rahatlatıcı müzikler eşlik etmektedir.",
+        "Hamam hizmetleri Türkçe başta olmak üzere çeşitli dillerde destek alınabilir.",
+        "Fitness Center kullanımı için yaş sınırı ile ilgili bilgi resepsiyonda bulunmaktadır."
+      ]
+    }
+  }
+} 
