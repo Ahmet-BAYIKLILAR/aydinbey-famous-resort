@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/router';
 import '../styles/ReviewPage.css';
 
 type Language = 'tr' | 'en' | 'de' | 'ru';
@@ -64,7 +64,7 @@ const translations = {
 };
 
 const ReviewPage: React.FC = () => {
-  const navigate = useNavigate();
+  const router = useRouter();
   const [language, setLanguage] = useState<Language>('tr');
 
   const t = translations[language];
@@ -80,7 +80,7 @@ const ReviewPage: React.FC = () => {
   return (
     <div className="review-page">
       <div className="review-page-header">
-        <button className="back-button" onClick={() => navigate(-1)}>
+        <button className="back-button" onClick={() => router.back()}>
           <span className="back-arrow">←</span> {t.back}
         </button>
         <div className="language-selector">
