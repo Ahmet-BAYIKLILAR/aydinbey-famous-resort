@@ -359,36 +359,31 @@ const LocationCard = ({ location }: { location: Location }) => {
 
   return (
     <motion.div
-      className="relative overflow-hidden rounded-xl bg-white shadow-lg group cursor-pointer"
+      className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden cursor-pointer mb-4"
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      whileHover={{ y: -5 }}
+      onTouchStart={() => setIsHovered(!isHovered)}
+      whileHover={{ scale: 1.02 }}
       transition={{ duration: 0.3 }}
     >
-      <div className="relative h-64">
-        <Image
-          src={location.image}
-          alt={location.title}
-          fill
-          className="object-cover transition-transform duration-500 group-hover:scale-110"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-        <div className="absolute bottom-0 p-6 text-white">
-          <h3 className="text-2xl font-bold mb-2">{location.title}</h3>
-          <p className="text-sm opacity-90">{location.distance}</p>
-        </div>
-      </div>
+      <Image
+        src={location.image}
+        alt={location.title}
+        fill
+        className="object-cover rounded-lg"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        priority
+      />
       <motion.div
-        className="absolute inset-0 bg-black/80 p-6 flex flex-col justify-center text-white"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: isHovered ? 1 : 0 }}
-        transition={{ duration: 0.3 }}
+        className={`absolute inset-0 bg-black/60 p-6 flex flex-col justify-between transition-opacity duration-300
+          ${isHovered ? 'opacity-100' : 'opacity-0 md:opacity-0 sm:opacity-100'}`}
+        initial={false}
       >
-        <h3 className="text-2xl font-bold mb-4">{location.title}</h3>
-        <p className="text-sm leading-relaxed">{location.content}</p>
-        <p className="text-sm mt-4 text-[#d3ab71]">{location.distance}</p>
+        <div>
+          <h3 className="text-2xl font-bold text-white mb-2">{location.title}</h3>
+          <p className="text-white/90 text-sm md:text-base mb-4">{location.content}</p>
+        </div>
+        <div className="text-white/80 text-sm">{location.distance}</div>
       </motion.div>
     </motion.div>
   );

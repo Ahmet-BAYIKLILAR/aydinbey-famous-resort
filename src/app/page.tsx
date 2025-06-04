@@ -483,6 +483,53 @@ const MainContent = ({ language, showReviewOptions, setShowReviewOptions }: {
   );
 };
 
+const VideoBackground = () => {
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+  const [videoError, setVideoError] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const handleVideoError = () => {
+    console.error('Video loading failed');
+    setVideoError(true);
+  };
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.playbackRate = 0.8; // Videoyu biraz yavaşlat
+      video.play().catch(handleVideoError);
+    }
+  }, []);
+
+  return (
+    <>
+      {!videoError && (
+        <video
+          ref={videoRef}
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          onLoadedData={() => setIsVideoLoaded(true)}
+          onError={handleVideoError}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+            isVideoLoaded ? 'opacity-100' : 'opacity-0'
+          } md:object-cover sm:object-contain`}
+        >
+          <source
+            src="/otel.mp4"
+            type="video/mp4"
+          />
+        </video>
+      )}
+      {(!isVideoLoaded || videoError) && (
+        <div className="absolute inset-0 bg-gray-900" />
+      )}
+    </>
+  );
+};
+
 export default function Home() {
   const [selectedLanguage, setSelectedLanguage] = useState('')
   const [showWelcome, setShowWelcome] = useState(false)
